@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="keywords" content="MapCar, Car, Map">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>MapCar</title>
+
+	<link rel="shortcut icon" href="img/Tlg.png">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/menu.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="js/scrollHead.js"></script>
+
+</head>
+<body>
+
+	<header class="shadow scroll_head-1">
+		<nav class="space_between">
+
+			<div class="top_logo">
+				<img src="img/MC_logo-1.png" alt="MC_logo" class="MC_logo">
+			</div>
+
+			<div class="search_trip">
+				<p><a href="pages/search_trip.html" class="a-white">Найти поездку</a></p>
+			</div>
+			<div class="create_trip">
+				<p><a href="pages/create_trip.html" class="a-white">Создать поездку</a></p>
+			</div>
+			
+			<!--Когда не вошел
+			<div class="log_in">
+				<p><a href="pages/enter_page.html" class="a-white">Войти</a></p>
+			</div>-->
+
+			<!--Когда вошел-->
+			
+			<div class="log_in">
+				<p>
+					<a href="pages/driver_page.html" class="a-white">Антон
+						<img src="img/pr_img.png" alt="pr_img" class="pr_img">
+					</a>
+				</p>
+			</div>
+			<!---->
+
+		</nav>
+
+	</header>
+
+	<div class="header_mob">
+		<div class="mob_nav shadow">
+
+			<p class="bor_b no_w">
+				<a href="#" class="menu_trigger a-only_white highlight-color" onclick="return false">
+					<svg xmlns="http://www.w3.org/2000/svg" class="top_menu_icon trans_menu_icon_1_m" viewBox="0 -1 22 22">
+						<path d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+						c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+						s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+						c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"/>
+					</svg>
+					<svg xmlns="http://www.w3.org/2000/svg" class="top_menu_icon trans_menu_icon_2_m" viewBox="2 -1 48 48">
+						<path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"/>
+					</svg>
+					<span class="pad_men">Meню</span>
+				</a>
+			</p>
+
+			<ul>
+				<li class="highlight-color"><a href="pages/search_trip.html" class="pad_li a-purple no_w">Найти поездку</a></li>
+				<li class="bor_t highlight-color"><a href="pages/create_trip.html" class="pad_li a-purple no_w">Создать поездку</a></li>
+
+				<!--Когда не вошел
+				<li class="bor_t bor_b shadow highlight-color"><a href="pages/enter_page.html" class="pad_li a-purple no_w">Войти</a></li>
+				-->
+
+				<!--Когда вошел-->
+				<li class="bor_t bor_b shadow highlight-color"><a href="pages/driver_page.html" class="pad_li a-purple no_w">Мой профиль</a></li>
+				<!---->
+
+			</ul>
+
+			<div class="mob_body"></div>
+
+		</div>
+	</div>
+
+	<div id="totop">
+		<svg xmlns="http://www.w3.org/2000/svg" class="totopsvg" viewBox="0 0 48 48">
+			<path d="M14.83 30.83L24 21.66l9.17 9.17L36 28 24 16 12 28z"/>
+		</svg>
+	</div>
+
+
+	<div class="container_1">
+		<div id="slider">
+
+			<div class="slider_main">
+				<div id="first" class="firstanimation"></div>
+				<div id="second" class="secondanimation"></div>
+				<div id="third" class="thirdanimation"></div>
+				<div id="fourth" class="fourthanimation"></div>
+			</div>
+
+		</div>
+
+		<div class="text_road">
+
+			<div class="text_road_shadow">
+				<p>В дорогу с попутчиками без забот</p>
+			</div>
+
+			<div class="main_button-1 main_button-shadow_1">
+				<a href="pages/search_trip.html" class="a-only_white">Найти поездку</a>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="wall_headline-1">
+		<div class="head-mt">
+		<h1 class="head-m head-ee">MapCar - лучший сервис для поиска поездок</h1>
+	</div>
+	</div>
+
+	<div class="container_2">
+
+		<div class="img_cont">
+			<img src="img/home_driver.jpg" alt="home_driver" class="img_in_cont-1">
+		</div>
+
+		<div class="text_cont">
+
+			<h2 class="head_cont">Куда вы планируете поехать?</h2>
+
+			<p>Давайте сделаем так, чтобы это было одно из самых дешевых ваших путешествий.</p>
+			
+			<div class="but_cont">
+				<div class="main_button-2">
+					<a href="pages/create_trip.html" class="a-only_white">Создать поездку</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="but_under_grid">
+		<div class="main_button-2 main_button-shadow_2">
+			<a href="pages/create_trip.html" class="a-only_white">Создать поездку</a>
+		</div>
+	</div>
+
+
+	<div class="wall_headline-2">
+		<h3 class="head-m">Почему вам понравится <span class="head-col">MapCar</span></h3>
+	</div>
+
+	<div class="un_wall"></div>
+
+	<div class="columns_3">
+
+		<div class="column colmn_mar">
+
+			<div class="svg_box">
+				<svg xmlns="http://www.w3.org/2000/svg" class="svg_in_box" viewBox="0 0 48 48">
+					<path d="M32 22c3.31 0 5.98-2.69 5.98-6s-2.67-6-5.98-6c-3.31 0-6 2.69-6 6s2.69 6 6 6zm-16 0c3.31 0 5.98-2.69 5.98-6s-2.67-6-5.98-6c-3.31 0-6 2.69-6 6s2.69 6 6 6zm0 4c-4.67 0-14 2.34-14 7v5h28v-5c0-4.66-9.33-7-14-7zm16 0c-.58 0-1.23.04-1.93.11C32.39 27.78 34 30.03 34 33v5h12v-5c0-4.66-9.33-7-14-7z"/>
+				</svg>
+			</div>
+
+			<p class="text_in_3">Сообщество</p>
+
+			<p>Мы хотим узнать больше о наших пользователей. Наша команда проверяет все профили и отзывы. Итак, вы точно знаете, с кем собираетесь в поездку.</p>
+		
+		</div>
+
+		<div class="column colmn_mar">
+
+			<div class="svg_box">
+				<svg xmlns="http://www.w3.org/2000/svg" class="svg_in_box" viewBox="0 0 48 48">
+					<path d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+				</svg>
+			</div>
+
+			<p class="text_in_3">Выходите в путь быстрее</p>
+
+			<p>Больше не нужно добираться через весь город. Найдите поездку рядом.</p>
+		
+		</div>
+
+		<div class="column">
+			<div class="svg_box">
+				<svg xmlns="http://www.w3.org/2000/svg" class="svg_in_box" viewBox="0 0 48 48">
+					<path d="M37.84 12.02C37.43 10.84 36.31 10 35 10H13c-1.31 0-2.43.84-2.84 2.02L6 24v16c0 1.1.9 2 2 2h2c1.11 0 2-.9 2-2v-2h24v2c0 1.1.9 2 2 2h2c1.11 0 2-.9 2-2V24l-4.16-11.98zM13 32c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm22 0c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zM10 22l3-9h22l3 9H10z"/>
+				</svg>
+			</div>
+
+			<p class="text_in_3">Быстро отправляйтесь в путь</p>
+
+			<p>60 секунд. Именно столько времени нужно, чтобы найти попутчиков и экономить на поездках вместе.</p>
+		
+		</div>
+
+	</div>
+	
+
+	<div class="walls">
+
+		<div class="wall_headline-3">
+
+			<div class="head-for_person">
+				<div class="head-text"><h4 class="head-m">Попутчикам</h4></div>
+				<div class="head-line min-line"></div>
+			</div>
+
+			<div class="description-for_person">
+
+				<div class="svg-description">
+					<svg xmlns="http://www.w3.org/2000/svg" class="svg-head_person" viewBox="0 0 48 48">
+						<path d="M31 28h-1.59l-.55-.55C30.82 25.18 32 22.23 32 19c0-7.18-5.82-13-13-13S6 11.82 6 19s5.82 13 13 13c3.23 0 6.18-1.18 8.45-3.13l.55.55V31l10 9.98L40.98 38 31 28zm-12 0c-4.97 0-9-4.03-9-9s4.03-9 9-9 9 4.03 9 9-4.03 9-9 9z"/>
+					</svg>
+				</div>
+
+				<div class="text-description">
+					<p class="text_in_3">Найдите поездку</p>	
+				</div>
+
+			</div>
+		
+			<p class="full_description">Просто укажите, куда вам нужно доехать, откуда и когда, и по результатам поиска выберите поездку, которая больше нравится. Прежде чем бронировать место, вы можете узнать о планах водителя подробнее, написав ему сообщение.</p>
+			
+			<div class="description-for_person">
+				
+				<div class="svg-description">
+					<svg xmlns="http://www.w3.org/2000/svg" class="svg-head_person" viewBox="0 0 48 48">
+						<path d="M24 24c4.42 0 8-3.59 8-8 0-4.42-3.58-8-8-8s-8 3.58-8 8c0 4.41 3.58 8 8 8zm0 4c-5.33 0-16 2.67-16 8v4h32v-4c0-5.33-10.67-8-16-8z"/>
+					</svg>
+				</div>
+
+				<div class="text-description">
+					<p class="text_in_3">Забронируйте место</p>
+				</div>
+
+			</div>
+
+			<p class="full_description fd_p">Забронируйте место онлайн. После этого вы получите номер телефона водителя для оперативной связи.</p>
+			
+			<div class="head-for_person">
+				<div class="head-text"><h5 class="head-m">Водителям</h5></div>
+				<div class="head-line min-line"></div>
+			</div>
+
+			<div class="description-for_person">
+
+				<div class="svg-description">
+					<svg xmlns="http://www.w3.org/2000/svg" class="svg-head_person" viewBox="0 0 48 48">
+						<path d="M6 34.5V42h7.5l22.13-22.13-7.5-7.5L6 34.5zm35.41-20.41c.78-.78.78-2.05 0-2.83l-4.67-4.67c-.78-.78-2.05-.78-2.83 0l-3.66 3.66 7.5 7.5 3.66-3.66z"/>
+					</svg>
+				</div>
+
+				<div class="text-description">
+					<p class="text_in_3">Создайте поездку</p>
+				</div>
+
+			</div>
+
+			<p class="full_description">Просто укажите, куда вам нужно доехать, откуда и когда, а так же подробно укажите свои планы на поездку.</p>
+			
+			<div class="description-for_person">
+
+				<div class="svg-description">
+					<svg xmlns="http://www.w3.org/2000/svg" class="svg-head_person" viewBox="0 0 48 48">
+						<path d="M43.98 8c0-2.21-1.77-4-3.98-4H8C5.79 4 4 5.79 4 8v24c0 2.21 1.79 4 4 4h28l8 8-.02-36z"/>
+					</svg>
+				</div>
+				
+				<div class="text-description">
+					<p class="text_in_3">Отвечайте попутчикам</p>
+				</div>
+
+			</div>
+
+			<p class="full_description last-f_text">Ваши попутчики будут Вам звонить или писать на почту, отвечайте им вовремя и обсуждайте детали поездки.</p>
+			
+			<div class="head-line full-line"></div>
+
+		</div>
+
+		<div class="wall-img">
+			<img src="img/map_girl.jpg" alt="map_girl" class="img_in_cont-1 img_in_cont-2">
+		</div>
+
+	</div>
+
+
+	<div class="ab_footer">
+		<h6 class="head-m head-ab">Мы объединяем людей, которым по дороге</h6>
+		<p class="text-in_ab_footer">Наша задача — сделать так, чтобы пользователи <span class="head-col"><strong>MapCar</strong></span> всегда чувствовали себя комфортно. Поэтому мы непрерывно совершенствуем функции безопасности в приложении и следим за соблюдением стандартов нашего сообщества.</p>
+	</div>
+
+
+	<footer>
+		<div class="in_footer">
+
+			<div class="footer_text_1">
+				<p><a href="pages/contact_with_us.html" class="a-purple">Связаться с нами</a></p>
+				<p><a href="pages/about_us.html" class="a-purple">О нас</a></p>
+				<p><span class="footer_text_2">MapCar, 2020 &#169;</span></p>
+			</div>
+
+			<div class="footer_svg_snet">
+				<div class="svg_block">
+					<a href="https://www.facebook.com/alexandr.zherebtsov.m" target="_blank" class="svg_a_footer">
+						<img src="img/facebook.png" alt="facebook" title="Facebook" class="svg_snet">
+					</a>
+					</div>
+				<div class="svg_block">
+					<a href="https://www.instagram.com/alexandr.zherebtsov.m" target="_blank" class="svg_a_footer">
+						<img src="img/instagram.png" alt="instagram" title="Instagram" class="svg_snet">
+					</a>
+				</div>
+				<div class="svg_block">
+					<a href="https://vk.com/alexandr.zherebtsov" target="_blank" class="svg_a_footer">
+						<img src="img/vk.png" alt="vk" title="VK" class="svg_snet">
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	
+	<div class="work_inf">
+		<div class="work_inf_text">
+			<p>Курсовая работа. Факультет Прикладных и Информационных Технологий. <span class="no_w">КНИТ Б-17.</span> <span class="no_w">Жеребцов О.М.</span> и <span class="no_w">Прысич А.В.</span></p>
+		</div>
+	</div>
+
+</body>
+</html>
