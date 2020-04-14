@@ -629,21 +629,14 @@ footer {
 	height: 40px;
 }
 
+.svg_snet {fill: #6de36d;}
+.svg_snet:hover {fill: #5ee05e;}
+.svg_snet:active {fill: #59d959;}
+
 .svg_a_footer {
 	display: block;
 	height: 100%;
 	width: 100%;
-	transition: 0.2s;
-}
-
-.svg_a_footer:hover {
-	filter: saturate(120%);
-	transition: 0.2s;
-}
-
-.svg_a_footer:active {
-	filter: saturate(130%);
-	transition: 0.2s;
 }
 
 .work_inf {background-color: #a786f7;}
@@ -777,7 +770,6 @@ input[type="date"]::-webkit-calendar-picker-indicator
 	margin: 30px 0;
 	width: calc(100% - 244px);
 	padding-right: 244px;
-	font-weight: bold;
 	text-align: center;
 	white-space: nowrap;
 }
